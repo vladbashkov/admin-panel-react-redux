@@ -1,6 +1,7 @@
 {
   "name": "hero_admin_panel",
   "version": "0.1.0",
+  "homepage": "https://vladbashkov.github.io/admin-panel-react-redux",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
@@ -19,6 +20,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "concurrently \"react-scripts start\" \"npx json-server heroes.json --port 3001\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
