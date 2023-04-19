@@ -1,0 +1,60 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "First hero",
+      "description": "First hero ever!",
+      "element": "fire"
+    },
+    {
+      "id": 2,
+      "name": "Uknown hero",
+      "description": "Hiding in shadow",
+      "element": "wind"
+    },
+    {
+      "id": 3,
+      "name": "Wash man",
+      "description": "Can wash",
+      "element": "water"
+    },
+    {
+      "id": 4,
+      "name": "Shai Hulud",
+      "description": "A big guy",
+      "element": "earth"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "label": "Fire",
+      "className": "btn-danger"
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "label": "Water",
+      "className": "btn-primary"
+    },
+    {
+      "id": "wind",
+      "name": "wind",
+      "label": "Wind",
+      "className": "btn-success"
+    },
+    {
+      "id": "earth",
+      "name": "earth",
+      "label": "Earth",
+      "className": "btn-secondary"
+    }
+  ]
+}

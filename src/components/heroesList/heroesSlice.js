@@ -16,7 +16,7 @@ export const fetchHeroes = createAsyncThunk(
     'heroes/fetchHeroes',
     () => {
         const {request} = useHttp();
-        return request("http://localhost:3001/heroes")
+        return request("https://my-json-server.typicode.com/vladbashkov/admin-panel-react-redux/heroes")
     }
 );
 

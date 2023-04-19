@@ -18,7 +18,7 @@ export const fetchFilters = createAsyncThunk(
     'filters/fetchFilters',
     async () => {
         const {request} = useHttp();
-        return await request("http://localhost:3001/filters");
+        return await request("https://my-json-server.typicode.com/vladbashkov/admin-panel-react-redux/filters");
     }
 )
 
